@@ -7,6 +7,6 @@
 4. Установите необходимые зависимости **pip install -r requirements.txt** 
 4. Инициализируйте heroku командой **heroku create**, затем деплоим проект **git push heroku master**; **heroku ps:scale web=1** и перейдите по ссылке
 5. Установите переменные окружения и sentry: **heroku config:set APP_LOCATION=heroku** и 
-**heroku config:set SENTRY=https://<key>@sentry.io/<project>**  
+**heroku config:set SENTRY=[Тег1][https://<key>@sentry.io/<project>]**  
    где <key и <project> у вас должны быть соответствующие вашему аккаунту данные.
 5. Проверяем приложение добавляя пути **/success** и **/fail**
